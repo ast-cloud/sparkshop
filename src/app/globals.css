@@ -19,3 +19,12 @@
       border-radius: 8px;
     }
 }
+
+.horizontal_scrollable_product_container{
+    -ms-overflow-style: none; /* IE */
+    overflow: -moz-scrollbars-none; /* Firefox */
+}
+
+.horizontal_scrollable_product_container::-webkit-scrollbar{
+    display: none;
+}
