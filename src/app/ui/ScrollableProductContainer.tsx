@@ -36,7 +36,7 @@ export default function ScrollableProductContainer(props:{containerHeading: stri
                     <IconButton onClick={()=>{scrollToIndex(currentIndex+1)}}><KeyboardDoubleArrowRightIcon/></IconButton>
                 </div>
             </div>
-            <div ref={productsDivRef} className="flex flex-nowrap overflow-x-auto space-x-2 horizontal_scrollable_product_container" style={{border:'0px solid red'}}>
+            <div ref={productsDivRef} className="flex flex-nowrap overflow-x-auto space-x-2 pb-1 horizontal_scrollable_product_container" style={{border:'0px solid red'}}>
                 <div className="product_card">
                     <ProductCard index={0}/>
                 </div>
