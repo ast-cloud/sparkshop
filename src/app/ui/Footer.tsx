@@ -37,9 +37,9 @@ export function Footer(){
                 </div>
             </div>
             <Divider flexItem className="my-5" />
-            <Typography>
+            <p className="text-sm font-normal" style={{color:'darkslategrey'}}>
                 &copy; {new Date().getFullYear()} Spark Shop All rights reserved | Terms and conditions apply
-            </Typography>
+            </p>
         </div>
     );
 
