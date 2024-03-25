@@ -2,11 +2,11 @@ import { TextField, Typography } from "@mui/material"
 import HomePageSlides from "./ui/HomePageSlides"
 import ProductCard from "./ui/ProductCard"
 import ScrollableProductContainer from "./ui/ScrollableProductContainer"
+import EmailInput from "./ui/EmailInput"
 
 export default function Home() {
 
   
-
   return (
     <div className="">
 
@@ -27,12 +27,13 @@ export default function Home() {
           <Typography variant="h6">Spark Shop newsletter</Typography>
           <Typography variant="body2">New products, limited editions, event invitations and much more.</Typography>
         </div>
-        <div className="w-51 lg:w-50 self-center">
-          <input type="email" placeholder="Your email" size={40} style={{borderRadius:'8px', height:'45px', width:'100%', padding:'15px'}}/>
+        <div className="flex w-51 lg:w-50 self-center cursor-pointer">
+          <EmailInput/>
         </div>
       </div>
 
     </div>
   )
 }
+
 
