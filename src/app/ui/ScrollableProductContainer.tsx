@@ -5,7 +5,7 @@ import { useRef } from "react";
 import KeyboardDoubleArrowRightIcon from '@mui/icons-material/KeyboardDoubleArrowRight';
 import KeyboardDoubleArrowLeftIcon from '@mui/icons-material/KeyboardDoubleArrowLeft';
 
-export default function ScrollableProductContainer(){
+export default function ScrollableProductContainer(props:{containerHeading: string}){
     
     const productsDivRef = useRef(null);
     let currentIndex = 2;
@@ -21,7 +21,7 @@ export default function ScrollableProductContainer(){
             const imgNode = listNode.querySelectorAll('.product_card')[index];
             imgNode.scrollIntoView({
                 behavior: 'smooth',
-                block: 'nearest',
+                block: 'center',
                 inline: 'center'
             });
         }
@@ -30,7 +30,7 @@ export default function ScrollableProductContainer(){
     return (
         <>  
             <div className="flex flex-row justify-between">
-                <Typography variant="h4" color={"darkslategrey"}>Shop Best Sellers</Typography>
+                <Typography variant="h4" color={"darkslategrey"}>{`${props.containerHeading}`}</Typography>
                 <div>
                     <IconButton onClick={()=>{scrollToIndex(currentIndex-1)}}><KeyboardDoubleArrowLeftIcon/></IconButton>
                     <IconButton onClick={()=>{scrollToIndex(currentIndex+1)}}><KeyboardDoubleArrowRightIcon/></IconButton>
