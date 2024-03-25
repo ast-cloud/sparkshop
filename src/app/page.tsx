@@ -22,12 +22,12 @@ export default function Home() {
         <ScrollableProductContainer containerHeading="New products"/>
       </div>
 
-      <div className="mt-20 mb-0 lg:py-10 px-5 lg:px-0 h-55 flex flex-col lg:flex-row justify-evenly" style={{backgroundColor:'#F4F1EA'}}>
+      <div className="mt-20 mb-0 lg:py-10 px-5 lg:px-0 h-48 lg:h-40 flex flex-col lg:flex-row justify-evenly" style={{backgroundColor:'#F4F1EA'}}>
         <div className="flex flex-col self-center">
           <Typography variant="h6">Spark Shop newsletter</Typography>
           <Typography variant="body2">New products, limited editions, event invitations and much more.</Typography>
         </div>
-        <div className="flex w-51 lg:w-50 self-center cursor-pointer">
+        <div className="flex w-50 self-center cursor-pointer">
           <EmailInput/>
         </div>
       </div>
