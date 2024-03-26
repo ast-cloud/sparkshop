@@ -3,6 +3,7 @@ import HomePageSlides from "./ui/HomePageSlides"
 import ProductCard from "./ui/ProductCard"
 import ScrollableProductContainer from "./ui/ScrollableProductContainer"
 import EmailInput from "./ui/EmailInput"
+import WhatsappFAB from "./ui/WhatsappFAB"
 
 export default function Home() {
 
@@ -31,7 +32,7 @@ export default function Home() {
           <EmailInput/>
         </div>
       </div>
-
+      <WhatsappFAB right={20} bottom={20}/>
     </div>
   )
 }
