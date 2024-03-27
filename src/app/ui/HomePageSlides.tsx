@@ -7,8 +7,8 @@ export default function HomePageSlides(){
 
     const imageStyle = {
       height: useMediaQuery('(max-width: 900px)')? '35vw':'28vw',
-      width: '100vw',
-      borderRadius:'0px'
+      width: '95vw',
+      borderRadius:'10px'
     } as React.CSSProperties;
 
     const carouselStyle = {
