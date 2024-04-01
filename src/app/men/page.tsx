@@ -1,4 +1,5 @@
 import { Divider, Typography } from "@mui/material";
+import SortbyDropdown from "./SortbyDropdown";
 
 export default function Men(){
     return (
@@ -6,7 +7,9 @@ export default function Men(){
             <div className="flex flex-col mt-12" style={{width:'85vw'}}>
                 <Typography variant="h5">Men Clothing</Typography>
                 <Divider flexItem color="#FBD139"  className="my-2" sx={{width:'8vw', height:'2px'}}/>
-                <p className="my-2" style={{alignSelf:'flex-end'}}>Sort By</p>
+                <div className="my-2" style={{alignSelf:'flex-end'}}>
+                    <SortbyDropdown/>
+                </div>
                 <div className="flex">
 
                 </div>
