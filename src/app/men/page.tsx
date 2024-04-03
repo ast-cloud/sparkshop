@@ -103,6 +103,8 @@ export default function Men(){
                             <div className="flex flex-col">
                                 <FormControlLabel control={<Checkbox size="small" sx={{height:'10px', border:'0px solid blue'}}/>} label={<Typography variant="body2">Block</Typography>} />
                                 <FormControlLabel control={<Checkbox size="small" sx={{height:'10px', border:'0px solid blue'}}/>} label={<Typography variant="body2">Printed</Typography>} />
+                                <FormControlLabel control={<Checkbox size="small" sx={{height:'10px', border:'0px solid blue'}}/>} label={<Typography variant="body2">Checked</Typography>} />
+                                <FormControlLabel control={<Checkbox size="small" sx={{height:'10px', border:'0px solid blue'}}/>} label={<Typography variant="body2">Striped</Typography>} />
                             </div>
                             </AccordionDetails>
                         </Accordion>
