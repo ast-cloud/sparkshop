@@ -91,6 +91,21 @@ export default function Men(){
                             </div>
                             </AccordionDetails>
                         </Accordion>
+                        {/* Design */}
+                        <Accordion elevation={0} className='' sx={{border:'none'}} disableGutters>
+                            <AccordionSummary sx={{fontSize:'10px', margin:0, border:'none', height:'40px', minHeight:'10px'}}>
+                                <div className="flex justify-between w-full">
+                                    <Typography>Design</Typography>
+                                    <KeyboardArrowDown sx={{color:'grey'}}/>
+                                </div>
+                            </AccordionSummary>
+                            <AccordionDetails className="pt-0">
+                            <div className="flex flex-col">
+                                <FormControlLabel control={<Checkbox size="small" sx={{height:'10px', border:'0px solid blue'}}/>} label={<Typography variant="body2">Block</Typography>} />
+                                <FormControlLabel control={<Checkbox size="small" sx={{height:'10px', border:'0px solid blue'}}/>} label={<Typography variant="body2">Printed</Typography>} />
+                            </div>
+                            </AccordionDetails>
+                        </Accordion>
                     </div>
                     <Grid></Grid>
                 </div>
