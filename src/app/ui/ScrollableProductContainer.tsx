@@ -37,25 +37,25 @@ export default function ScrollableProductContainer(props:{containerHeading: stri
                 </div>
             </div>
             <div ref={productsDivRef} className="flex flex-nowrap overflow-x-auto space-x-2 pb-1 horizontal_scrollable_product_container" style={{border:'0px solid red'}}>
-                <div className="product_card">
+                <div className="product_card" style={{marginTop:55, marginRight:20}}>
                     <ProductCard index={0}/>
                 </div>
-                <div className="product_card">
+                <div className="product_card" style={{marginTop:55, marginRight:20}}>
                     <ProductCard index={1}/>
                 </div>
-                <div className="product_card">
+                <div className="product_card" style={{marginTop:55, marginRight:20}}>
                     <ProductCard index={2}/>
                 </div>
-                <div className="product_card">
+                <div className="product_card" style={{marginTop:55, marginRight:20}}>
                     <ProductCard index={3}/>
                 </div>
-                <div className="product_card">
+                <div className="product_card" style={{marginTop:55, marginRight:20}}>
                     <ProductCard index={4}/>
                 </div>
-                <div className="product_card">
+                <div className="product_card" style={{marginTop:55, marginRight:20}}>
                     <ProductCard index={5}/>
                 </div>
-                <div className="product_card">
+                <div className="product_card" style={{marginTop:55, marginRight:20}}>
                     <ProductCard index={6}/>
                 </div>
             </div>
