@@ -1,6 +1,5 @@
-import { TextField, Typography } from "@mui/material"
+import { Typography } from "@mui/material"
 import HomePageSlides from "./ui/HomePageSlides"
-import ProductCard from "./ui/ProductCard"
 import ScrollableProductContainer from "./ui/ScrollableProductContainer"
 import EmailInput from "./ui/EmailInput"
 import WhatsappFAB from "./ui/WhatsappFAB"
